@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: radial-gradient(circle at top left, #1c2b45, #060b17);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+}
+
+textarea {
+    width: 420px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 18px;
+    color: #ffffff;
+    resize: none;
+    outline: none;
+}
+
+textarea::placeholder {
+    color: #cfcfcf;
+}
+
+.counter {
+    position: absolute;
+    bottom: -30px;
+    right: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    opacity: 0.8;
+}
